@@ -1,45 +1,40 @@
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: local('OpenSans-Regular.ttf'), url('OpenSans-Regular.ttf') format('ttf');
+    src: url(../../fonts/OpenSans-Regular.ttf);
     }
 
 @font-face {
     font-family: 'OpenSans-Light';
-    src: local('OpenSans-Light.ttf'), url('OpenSans-Light.ttf') format('ttf');
+    src: url(../../fonts/OpenSans-Light.ttf);
     }  
     
  @font-face {
      font-family: 'OpenSans-Bold';
-     src: local('OpenSans-Bold.ttf'), url('OpenSans-Bold.ttf') format('ttf');
-     }     
-
-@font-face {
-    font-family: 'OpenSans-Bold';
-    src: local('OpenSans-Bold.ttf'), url('OpenSans-Bold.ttf') format('ttf');
-     }      
+     src: url(../../fonts/OpenSans-Bold.ttf);
+     }         
 
 @font-face {
     font-family: 'OpenSans-ExtraBold';
-    src: local('OpenSans-ExtraBold.ttf'), url('OpenSans-ExtraBold.ttf') format('ttf');
+    src: url(../../fonts/OpenSans-ExtraBold.ttf);
      }      
 
-     @font-face {
-        font-family: 'Ubuntu-Regular';
-        src: local('Ubuntu-Regular.ttf'), url('Ubuntu-Regular.ttf') format('ttf');
-        }
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../../fonts/Ubuntu-Regular.ttf);
+    }
     
-    @font-face {
-        font-family: 'Ubuntu-Light';
-        src: local('Ubuntu-Light.ttf'), url('Ubuntu-Light.ttf') format('ttf');
-        }  
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url(../../fonts/Ubuntu-Light.ttf);
+    }  
         
-     @font-face {
-         font-family: 'Ubuntu-Medium';
-         src: local('Ubuntu-Medium.ttf'), url('Ubuntu-Medium.ttf') format('ttf');
-         }     
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url(../../fonts/Ubuntu-Medium.ttf);
+    }     
     
-    @font-face {
-        font-family: 'Ubuntu-Bold';
-        src: local('Ubuntu-Bold.ttf'), url('Ubuntu-Bold.ttf') format('ttf');
-         }      
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(../../fonts/Ubuntu-Medium.ttf);
+    }      
     

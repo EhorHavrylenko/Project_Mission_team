@@ -1,0 +1,295 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  min-width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #000000;
+  object-fit: none;
+  opacity: 0.95;
+  margin-bottom: 70px; 
+  position: relative;
+  z-index: 0;
+}
+
+.header__body {
+  display: flex;
+  min-width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+}
+
+.header__logo {
+  position: fixed;
+  z-index: 8;
+  top: 10px;
+  padding: 10px 10px;
+}
+
+.header__link {
+  display: inline-block;
+  font-size: 28px;
+  color: #f6f9fa;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  &:hover {
+    border-bottom: 2px solid #e9ac39;
+  }
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.menu__btn {
+  display: flex; 
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 7;
+
+  & > span,
+  & > span::before,
+  & > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  span {
+    &::before {
+      content: '';
+      top: -8px;
+    }
+
+    &::after {
+      content: '';
+      top: 8px;
+    }
+  }
+}
+
+.header__menu {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  z-index: 6;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 100px 0;
+  text-align: center;
+  background-color: $color-violet;
+}
+
+.header__btn {
+  width: 194px;
+  height: 43px;
+  font-size: 16px;
+  color: #f6f9fa;
+  font-family: "Open Sans";
+  font-weight: 700;
+  padding: 10px;
+  background-color: #e9ac39;
+  border: none;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    background: #e19f22;
+    cursor: pointer;
+  }
+}
+
+#menu__toggle {
+  &:checked {
+    & ~ .menu__btn {
+      & > span {
+        transform: rotate(45deg); 
+        
+        &::before {
+          top: 0; 
+          transform: rotate(0); 
+        }
+
+        &::after {
+          top: 0; 
+          transform: rotate(90deg); 
+        }
+      }	
+    }	
+
+    & ~ .header__menu {
+      visibility: visible;
+      z-index: 5; 
+      left: 0;
+    }	
+  }	
+}
+	
+.header__list {
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+
+  &--swype {
+    display: block;
+
+    & img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.header__title {
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.header__text {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  margin-bottom: 60px;
+  
+  span {
+    color: #e9ac38;
+  }    
+}
+
+@media screen and (min-width:320px){
+  .wrapper {
+    width: 281px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px){
+  .wrapper {
+    width: 693px;
+  }
+
+  .banner {
+    object-fit: cover;
+  }
+
+  .header__link:not(:last-child) {
+    font-size: 28px;
+    font-family: "Ubuntu";
+  }
+
+  .header__list {
+    position: absolute;
+    z-index: 1;
+    width: 446px;
+
+    &--swype {
+      display: none;
+    }
+  }
+
+  .header__title {
+    font-size: 50px;
+  }
+
+  .header__text {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 5px;
+    margin-bottom: 0;
+  }
+  
+}
+
+@media screen and (min-width:1920px){
+  .wrapper {
+    width: 1299px;
+  }
+
+  .header__logo {
+    position: absolute;
+    top: 30px;
+    padding: 10px 10px;
+  }
+
+  #menu__toggle,
+  .menu__btn {
+    visibility: hidden;
+  }
+
+  .header__menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    visibility: visible;
+    background: inherit;
+    width: 1020px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .header__link {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .header__list {
+    width: 487px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+   
+  .header__title {
+    font-size: 65px;
+    text-align: left;
+  }
+  
+  .header__text {
+    width: 487px;
+    height: 102px;
+    font-size: 25px;
+    font-weight: 400;
+    
+    &--line {
+      width: 416px;
+      margin: 0 auto; 
+      margin-top: 12px;
+      border-left: 2px solid $color-orange; 
+    }
+  }
+}

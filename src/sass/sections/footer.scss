@@ -1,18 +1,25 @@
-@media screen and (min-width:320px){
-    footer{
-        height: 573px;
-        background:
-        linear-gradient(to bottom, 
-        #222222 0%, #222222 85%,
-        #151515 85%,  #151515 100%
-        )
-    }
+.footer__holder{
+        width: 320px;
+        height: 473px;
+        background:#222222; 
+
+        @media screen and (min-width: 768px){
+            width: 689px;
+            height: 301px;
+        }
+}
 
     .wrapper {
         width: 281px;
         margin: 0 auto;
-        padding: 42px 45px 22px 45px;
-      }
+        padding: 42px 45px 16px 45px;
+
+        @media screen and (min-width: 768px){
+            width: 689px;
+            height: 301px;
+            display: flex;
+        }
+    }
 
     .footer-goit-logo{
         width: 100px;
@@ -72,9 +79,21 @@
     }
 
     .footer-2{
+        background-color: #000000;
         font-size: 10px;
         color: #626263;
         font-family: 'OpenSans-Bold';
-        margin-top: 46px;
+        // margin-top: 46px;
     }
-}
+
+    // @media screen and (min-width: 768px){
+
+    //     footer{
+    //     width: 768px;
+    //     height: 301px;
+    //     background:
+    //     linear-gradient(to bottom, 
+    //     red 0%, red 85%,
+    //     #151515 85%,  #151515 100%
+    // );
+    // }

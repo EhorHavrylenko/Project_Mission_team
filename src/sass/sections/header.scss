@@ -9,7 +9,7 @@ img {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background: #000000;
+  background: $color-black;
   object-fit: none;
   opacity: 0.95;
   margin-bottom: 70px; 
@@ -35,14 +35,14 @@ img {
 .header__link {
   display: inline-block;
   font-size: 28px;
-  color: #f6f9fa;
+  color: $color-white;
   font-family: 'Ubuntu-Bold';
   text-decoration: none;
   margin: 0 auto;
   margin-bottom: 30px;
 
   &:hover {
-    border-bottom: 2px solid #e9ac39;
+    border-bottom: 2px solid $color-orange_hover;
   }
 }
 
@@ -68,7 +68,7 @@ img {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: $color-white;
   }
 
   span {
@@ -102,16 +102,16 @@ img {
   width: 194px;
   height: 43px;
   font-size: 16px;
-  color: #f6f9fa;
+  color: #f5f9fa;
   font-family: 'OpenSans-Bold';
   padding: 10px;
-  background-color: #e9ac39;
+  background-color: $color-orange_hover;
   border: none;
   border-radius: 4px;
 
   &:hover,
   &:focus {
-    background: #e19f22;
+    background: $color-orange_btn;
     cursor: pointer;
   }
 }
@@ -155,13 +155,15 @@ img {
 
     & img {
       margin: 0 auto;
+      width: 20px;
+      height: 16px;
     }
   }
 }
 
 .header__title {
   font-size: 35px;
-  color: #ffffff;
+  color: $color_white;
   font-family: 'OpenSans-ExtraBold';
   text-align: center;
   margin: 0;
@@ -170,7 +172,7 @@ img {
 
 .header__text {
   font-size: 16px;
-  color: #ffffff;
+  color: $color_white;
   font-family: 'Ubuntu-Regular';
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
@@ -178,7 +180,7 @@ img {
   margin-bottom: 60px;
   
   span {
-    color: #e9ac38;
+    color: $color-orange_hover;
   }
 }
 

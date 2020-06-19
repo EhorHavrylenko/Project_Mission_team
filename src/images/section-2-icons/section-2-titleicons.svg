@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<defs>
+		<image width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVQ4T+2TSwoCMRBEXy38HMuNIHheQXDjsRxclCSThGFIZvoAZt31uruqI4LP9jmVSvosJYrobR+AR6m9S/pWnWy7B5GU4QvxtdS9gAbZBHTEtVeDDAHAsYxdO68HnSGjFYBk2hO4DHx6A7e9FU4DyCyWpoiJa0gT51iDMVZIKs+dW4wRQImzf0iBO9i8k4gHf8DOZ/sB1C12F2r/wuYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section 2">
+		<g id="Title">
+			<g id="icon 2">
+				<use id="Слой 6" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

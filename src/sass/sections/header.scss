@@ -21,7 +21,7 @@ img {
   display: flex;
   min-width: 100%;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 0;
 }
 
@@ -36,8 +36,7 @@ img {
   display: inline-block;
   font-size: 28px;
   color: #f6f9fa;
-  font-family: "Ubuntu";
-  font-weight: 700;
+  font-family: 'Ubuntu-Bold';
   text-decoration: none;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -104,8 +103,7 @@ img {
   height: 43px;
   font-size: 16px;
   color: #f6f9fa;
-  font-family: "Open Sans";
-  font-weight: 700;
+  font-family: 'OpenSans-Bold';
   padding: 10px;
   background-color: #e9ac39;
   border: none;
@@ -147,7 +145,7 @@ img {
 .header__list {
   position: absolute;
   z-index: 1;
-  top: 80%;
+  top: 4000%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
@@ -164,8 +162,7 @@ img {
 .header__title {
   font-size: 35px;
   color: #ffffff;
-  font-family: "Open Sans";
-  font-weight: 800;
+  font-family: 'OpenSans-ExtraBold';
   text-align: center;
   margin: 0;
   margin-bottom: 25px;
@@ -174,8 +171,7 @@ img {
 .header__text {
   font-size: 16px;
   color: #ffffff;
-  font-family: "Ubuntu";
-  font-weight: 400;
+  font-family: 'Ubuntu-Regular';
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 3px;
@@ -183,7 +179,7 @@ img {
   
   span {
     color: #e9ac38;
-  }    
+  }
 }
 
 @media screen and (min-width:320px){
@@ -204,7 +200,6 @@ img {
 
   .header__link:not(:last-child) {
     font-size: 28px;
-    font-family: "Ubuntu";
   }
 
   .header__list {

@@ -273,13 +273,12 @@ justify-content: flex-start;
     margin-top: -10px;
     padding-bottom: 20px;
     flex-direction: row;
-    max-width: 620px;
     margin: 0 auto;
     height: auto;
   }
   .direction__item{
     border-radius: 7px;
-    width: 310px;
+    width: 50%;
     margin: 0 auto;
     height: 295px;
   }
@@ -320,7 +319,7 @@ justify-content: flex-start;
     border-radius: 7px;
     background-color: $color-orange;
     box-shadow: 1.5px 2.598px 8px 0px rgba(0, 0, 0, 0.15);
-    width: 310px;
+    width: 50%;
     margin: 0 auto;
     height: 295px;
 }

@@ -9,6 +9,7 @@ img {
   height: 558px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background: $color-black;
   object-fit: none;
   opacity: 0.95;
@@ -35,7 +36,7 @@ img {
 .header__link {
   display: inline-block;
   font-size: 28px;
-  color: $color-white;
+  color: $color_white;
   font-family: 'Ubuntu-Bold';
   text-decoration: none;
   margin: 0 auto;
@@ -68,7 +69,7 @@ img {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: $color-white;
+    background-color: $color_white;
   }
 
   span {

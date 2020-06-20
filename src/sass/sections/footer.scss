@@ -49,16 +49,16 @@
 }
 
     .wrapper{
-        width: 281px;
+        min-width: 281px;
         margin: 0 auto;
 
      
         @media screen and (min-width: 768px){
-            width: 693px;
+            min-width: 693px;
         }
 
         @media screen and (min-width: 1920px) {
-            width: 1299px;
+            min-width: 1299px;
         }
     }
 

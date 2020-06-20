@@ -58,22 +58,23 @@
 }
 .programm__text{
   font-size: 18px;
-  font-family: "Myriad Pro";
+  font-family: "Ubuntu-Regular";
   color: $color_white;
   line-height: 1.333;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  width: 85%;
+  width: 80%;
   padding-top: 30px;
-  height: 160px;   
+  height: 160px;  
+  bottom: 2%; 
   z-index: 1;
 }
 .programm__text:before{
   content: "";
   position: absolute;
-  left: 38.5%;
-  top: 13%;
+  left: 36%;
+  top: 15%;
   background-color: $color-orange;
   width: 60px;
   height: 2px;
@@ -231,11 +232,12 @@ justify-content: flex-start;
     margin-bottom: 67px;
   }
   .programm__text{
+    font-family: "Ubuntu-Regular";
     font-size: 20px;
     line-height: 1.4;
     text-align: left;
     padding-left: 10%;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.0px;
     width: 82%;
   }
   .programm__text p{

@@ -25,7 +25,7 @@
   }
   .section1__title{
     font-size: 15px;
-    ffont-family: "Ubuntu-Light";
+    font-family: 'Ubuntu-Light';
     color: $color_gray;
     font-weight: 700;
     line-height: 1.429;
@@ -38,7 +38,7 @@
     padding-top: 21px;
   }
   .section1__img{
-    background-image: -webkit-image-set(url("/images/section-1-icons/sec1_main_mobile.png") 1x,url("/images/section-1-icons/sec1_main_mobile@2x.png") 2x);
+    background-image: -webkit-image-set(url("../images/section-1-icons/sec1_main_mobile.png") 1x,url("../images/section-1-icons/sec1_main_mobile@2x.png") 2x);
     border-radius: 6px;
     background-color: $color_white;
     background-size: cover;
@@ -57,7 +57,7 @@
   }
   .programm__text{
     font-size: 18px;
-    font-family: "Ubuntu-Regular";
+    font-family: 'Ubuntu-Regular';
     color: $color_white;
     line-height: 1.333;
     text-align: center;
@@ -99,7 +99,7 @@
   }
   .heading__block h3{
     font-size: 20px;
-    font-family: "OpenSans-Bold";
+    font-family: 'OpenSans-Bold';
     color: $color-black;
     font-weight: bold;
     text-transform: uppercase;
@@ -130,7 +130,7 @@
   }
   .direction__item h4{
     font-size: 25px;
-    font-family: "Ubuntu-Bold";
+    font-family: 'Ubuntu-Bold';
     color: $color-black;
     font-weight: bold;
     line-height: 1;      
@@ -138,7 +138,7 @@
   }
   .direction__info{    
     font-size: 15px;
-    font-family: "Ubuntu-Regular";
+    font-family: 'Ubuntu-Regular';
     color: $color_gray;
     line-height: 1.25;
     letter-spacing: 0.4px;
@@ -148,7 +148,7 @@
   }
   .derection__years{
     font-size: 30px;
-    font-family: "OpenSans-Bold";
+    font-family: 'OpenSans-Bold';
     color: $color-orange;
     font-weight: bold;
     line-height: 0.733;
@@ -156,7 +156,7 @@
   }
   .derection__years span{
     font-size: 13px;
-    font-family: "Ubuntu-Light";
+    font-family: 'Ubuntu-Light';
     color: $color-orange;
     line-height: 1.692;
     vertical-align: 2.2em;
@@ -213,7 +213,7 @@
       width: 100%;
     }
     .section1__img{
-      background-image: -webkit-image-set(url("/images/section-1-icons/sec1_main_tablet.png") 1x,url("/images/section-1-icons/sec1_main_tablet@2x.png") 2x);    
+      background-image: -webkit-image-set(url("../images/section-1-icons/sec1_main_tablet.png") 1x,url("../images/section-1-icons/sec1_main_tablet@2x.png") 2x);    
       width: 100%;
       height: 321px;
       background-color: $color_white;
@@ -227,7 +227,7 @@
       margin-bottom: 67px;
     }
     .programm__text{
-      font-family: "Ubuntu-Regular";
+      font-family: 'Ubuntu-Regular';
       font-size: 20px;
       line-height: 1.4;
       text-align: left;
@@ -259,7 +259,7 @@
   }
     .heading__block h3{
       font-size: 33px;
-      font-family: "OpenSans-Bold";
+      font-family: 'OpenSans-Bold';
       font-weight: 900;
       line-height: 1.95;
       text-transform: uppercase;
@@ -288,14 +288,14 @@
     }
     .direction__item h4{
       font-size: 30px;
-      font-family: "Ubuntu-Bold";
+      font-family: 'Ubuntu-Bold';
       font-weight: bold;
       line-height: 0.833;
       margin-bottom: 29px;
     }
     .direction__info{
       font-size: 16px;
-      font-family: "Ubuntu-Light";
+      font-family: 'Ubuntu-Light';
       line-height: 1.375;
       font-weight: 300;
       width: 180px;
@@ -305,13 +305,13 @@
     }
     .derection__years{
       font-size: 40px;
-      font-family: "OpenSans-Bold";
+      font-family: 'OpenSans-Bold';
       font-weight: bold;
       line-height: 0.55;
     }
     .derection__years span{
       font-size: 13px;
-      font-family: "Ubuntu-Medium";
+      font-family: 'Ubuntu-Medium';
       line-height: 1.692;
     text-decoration: underline;
     }
@@ -358,7 +358,7 @@
     margin-top: 117px;
   }
   .section1__img{
-    background-image: -webkit-image-set(url("/images/section-1-icons/sec1_main_desctop.png") 1x,url("/images/section-1-icons/sec1_main_desctop@2x.png") 2x);
+    background-image: -webkit-image-set(url("../images/section-1-icons/sec1_main_desctop.png") 1x,url("../images/section-1-icons/sec1_main_desctop@2x.png") 2x);
     border-radius: 5px;
     width: 650px;
     height: 400px;
@@ -380,7 +380,7 @@
     order: 2;
   }
   .section1__info{
-  font-family: "OpenSans-ExtraBold";
+    font-family: 'OpenSans-ExtraBold';
   }
   .section1__title{
   font-size: 20px;
@@ -405,7 +405,7 @@
   }
   .programm__text{
   font-size: 25px;
-  font-family: "Ubuntu-Regular";
+  font-family: 'Ubuntu-Regular';
   line-height: 1.4;
   text-align: left;
   width: 860px;
@@ -429,7 +429,7 @@
   }
   .heading__block h3{
   font-size: 33px;
-  font-family: "OpenSans-ExtraBold";
+  font-family: 'OpenSans-ExtraBold';
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.364;
@@ -456,26 +456,26 @@
   }
   .direction__item h4{
   font-size: 30px;
-  font-family: "Ubuntu-Bold";
+  font-family: 'Ubuntu-Bold';
   font-weight: bold;
   line-height: 0.833;
   }
   .direction__info{
   font-size: 18px;
-  font-family: "Ubuntu-Light";
+  font-family: 'Ubuntu-Light';
   line-height: 1.5;
   width: 208px;
   height: 44px;
   }
   .derection__years{
   font-size: 40px;
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   font-weight: bold;
   line-height: 0.55;
   }
   .derection__years span{
   font-size: 13px;
-  font-family: "Ubuntu-Light";
+  font-family: 'Ubuntu-Light';
   line-height: 1.692;
   text-decoration: underline;
   }

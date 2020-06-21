@@ -46,7 +46,7 @@
 }
 
 .title-box__title {
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'OpenSans-Bold';
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -54,6 +54,7 @@
 }
 .box {
     width: 69.395%;
+    margin: 0 auto;
 }
 .box__card {
     width: 69.395%;
@@ -66,7 +67,7 @@
 .box__text {
     font-size: 14px;
     color: $color_gray;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu-Regular';
 }
 .box__icon {
     width: 60px;
@@ -109,6 +110,7 @@
     .our-study{
         width: 80.729%;
         margin: 0 auto; 
+        padding-top: 44px;
       }     
     .title-box {
         width: 620px;
@@ -146,7 +148,6 @@
     .our-study {
         width: 100%;
         padding-top: 110px;
-        padding-left: 90px;
     }
     .title-box {
         width: 1234px;

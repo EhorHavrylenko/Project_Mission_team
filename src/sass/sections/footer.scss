@@ -49,12 +49,12 @@ background-repeat: no-repeat;
 }
 
 .wrapper{
-    width: 281px;
+    min-width: 281px;
     margin: 0 auto;
 
  
     @media screen and (min-width: 768px){
-        width: 693px;
+        min-width: 80%;
     }
 
     @media screen and (min-width: 1920px) {
@@ -67,15 +67,19 @@ background-repeat: no-repeat;
     margin: 0 auto;
 
     @media screen and (min-width: 768px){
-        width: 620px;
+        width: 80%;
         display: flex;
         justify-content: space-between;
     }
 
     @media screen and (min-width: 1920px) {
         width: 1152px;
-        margin: 0;
+        // margin: 0;
     }
+}
+
+.location-holder{
+    margin-bottom: 20px ;
 }
 
 .footer-goit-logo{
@@ -88,6 +92,7 @@ background-repeat: no-repeat;
     line-height: 25px;
     color: #9699a6;
     font-family: 'Ubuntu-Regular';
+    padding-top: 7px;
 }
 
 .contact{

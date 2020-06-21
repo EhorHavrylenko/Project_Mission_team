@@ -41,7 +41,7 @@ background-color: #333333;
 border-radius: 50%;
 position: absolute;
 right: 39px;
-background-image: url(../../images/footer-arrow.png);
+background-image: url(./../images/footer-arrow.png);
 background-position: center;
 background-repeat: no-repeat;
 }
@@ -67,7 +67,7 @@ background-repeat: no-repeat;
     margin: 0 auto;
 
     @media screen and (min-width: 768px){
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
     }
@@ -152,15 +152,15 @@ background-repeat: no-repeat;
     background-position: center;
     &:nth-of-type(1){
         background-color: #6398e0;
-        background-image: url(../../images/telegram.png);
+        background-image: url(./../images/telegram.png);
     }
     &:nth-of-type(2){
         background-color: #3b4e70;
-        background-image: url(../../images/fb.png);
+        background-image: url(./../images/fb.png);
     }
     &:nth-of-type(3){
         background-color: #9f2431;
-        background-image: url(../../images/youtube.png);
+        background-image: url(./../images/youtube.png);
     }
 }
 
